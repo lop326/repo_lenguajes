@@ -1,0 +1,35 @@
+
+body {
+    background-color:rgb(108, 136, 161); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    font-size: 28px;
+    color: #298969;
+    margin-bottom: 20px;
+}
+
+.instructions ol {
+    padding-left: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+}
